@@ -1,0 +1,64 @@
+{
+  "name": "nexus-hack-2025",
+  "version": "1.0.0",
+  "description": "Advanced terminal hacking simulation game for educational purposes",
+  "main": "scripts/advanced-hacking-game.js",
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/advanced-hacking-game.js",
+    "play": "node scripts/advanced-hacking-game.js",
+    "hack": "node scripts/advanced-hacking-game.js",
+    "install-global": "npm install -g .",
+    "dev": "nodemon scripts/advanced-hacking-game.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "bin": {
+    "nexus-hack": "./scripts/advanced-hacking-game.js",
+    "hack-game": "./scripts/advanced-hacking-game.js"
+  },
+  "keywords": [
+    "hacking",
+    "cybersecurity",
+    "terminal",
+    "cli",
+    "game",
+    "education",
+    "penetration-testing",
+    "security",
+    "simulation",
+    "interactive"
+  ],
+  "author": {
+    "name": "Nexus Development Team",
+    "email": "dev@nexushack.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nexus-hack/terminal-game.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nexus-hack/terminal-game/issues"
+  },
+  "homepage": "https://github.com/nexus-hack/terminal-game#readme",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "chalk-animation": "^2.0.3",
+    "figlet": "^1.7.0",
+    "gradient-string": "^2.0.2",
+    "inquirer": "^9.2.12",
+    "nanospinner": "^1.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "@types/figlet": "^1.5.8",
+    "@types/inquirer": "^9.0.7"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "os": ["darwin", "linux", "win32"],
+  "preferGlobal": true,
+  "files": ["scripts/", "README.md", "LICENSE"]
+}
